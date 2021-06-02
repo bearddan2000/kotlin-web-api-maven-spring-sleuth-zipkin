@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: "zipnik-sleuth-site2"
+  zipkin:
+    baseUrl: "http://zipkin-srv:9411"
